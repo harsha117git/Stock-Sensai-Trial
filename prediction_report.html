@@ -1,0 +1,114 @@
+
+    <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        <h2 style="color: #333; text-align: center;">Stock Price Prediction Report</h2>
+        
+        <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0;">Stock Information</h3>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr><td style="padding: 8px 0; font-weight: bold; width: 40%;">Stock Name:</td><td>Reliance Industries</td></tr>
+                <tr><td style="padding: 8px 0; font-weight: bold;">Symbol:</td><td>RELIANCE.NS</td></tr>
+                <tr><td style="padding: 8px 0; font-weight: bold;">Index:</td><td>Nifty 50</td></tr>
+                <tr><td style="padding: 8px 0; font-weight: bold;">Current Price:</td><td>₹1456.40</td></tr>
+                <tr><td style="padding: 8px 0; font-weight: bold;">Prediction Date:</td><td>2025-05-21 13:41</td></tr>
+                <tr><td style="padding: 8px 0; font-weight: bold;">Target Date:</td><td>2025-05-22</td></tr>
+            </table>
+        </div>
+        
+        <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0;">Prediction Summary</h3>
+            <p><strong>Ensemble Prediction:</strong> ₹1419.86</p>
+            <p><strong>Expected Change:</strong> <span style='color:red'>-2.51%</span></p>
+        </div>
+        
+        <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px;">
+            <h3 style="margin-top: 0;">Model Predictions</h3>
+            <div style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr style="background-color: #eee; position: sticky; top: 0; z-index: 1;">
+                        <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Model</th>
+                        <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Predicted Price</th>
+                    </tr>
+                    
+                <tr style="background-color: #d9edf7;">
+                    <td colspan="2" style="padding: 8px; font-weight: bold; border-top: 1px solid #bce8f1;">
+                        Machine Learning Algorithms
+                    </td>
+                </tr>
+            
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">KNN</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1414.02</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">LightGBM</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1414.68</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">LinearRegression</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1455.09</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">RandomForest</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1414.88</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">SVM</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1412.38</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">XGBoost</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1410.70</td>
+                        </tr>
+                    
+                <tr style="background-color: #d9edf7;">
+                    <td colspan="2" style="padding: 8px; font-weight: bold; border-top: 1px solid #bce8f1;">
+                        Ensemble Algorithms
+                    </td>
+                </tr>
+            
+                        <tr style="background-color: #dff0d8;">
+                            <td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #ddd;">Ensemble</td>
+                            <td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #ddd;">₹1419.86</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">LSTM_XGBoost</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1427.51</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">Voting</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1421.41</td>
+                        </tr>
+                    
+                <tr style="background-color: #d9edf7;">
+                    <td colspan="2" style="padding: 8px; font-weight: bold; border-top: 1px solid #bce8f1;">
+                        Other Algorithms
+                    </td>
+                </tr>
+            
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">lstm_xgboost_ensemble</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1427.51</td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">voting_ensemble</td>
+                            <td style="padding: 8px; border-bottom: 1px solid #ddd;">₹1421.41</td>
+                        </tr>
+                    
+                </table>
+            </div>
+        </div>
+        
+        <div style="margin-top: 20px; text-align: center; font-size: 12px; color: #666;">
+            <p>Generated on 2025-05-21 13:41</p>
+            <p>This report is generated for informational purposes only and should not be considered as financial advice.</p>
+        </div>
+    </div>
+    
